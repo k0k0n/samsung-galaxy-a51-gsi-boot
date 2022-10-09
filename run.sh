@@ -2,9 +2,9 @@
 
 set -ex
 
-#base=/hdd2/dumps/Samsung/SM-A515F_XEF/
-#base=/hdd2/dumps/Samsung/SM-G781U
-#base=/home/phh/tmp/SM-G781U_SPR/
+#base=/hdd2/dumps/Samsung/SM-S908B_EUX/
+#base=/hdd2/dumps/Samsung/SM-S908B
+#base=/home/phh/tmp/SM-S908B_EUX/
 
 #cp $base/recovery.img .
 off=$(grep -ab -o SEANDROIDENFORCE recovery.img |tail -n 1 |cut -d : -f 1)
